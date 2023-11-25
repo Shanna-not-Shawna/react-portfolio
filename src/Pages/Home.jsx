@@ -5,7 +5,7 @@ export default function Home() {
     <Content title="About Me">
       <div className="row align-items-center">
         <div className="col-4">
-          <img style={{width: "100%"}} src="https://hfparishschool.org/wp-content/uploads/2017/11/Children-kids-clip-art-free-clipart-images.jpg" alt="fun" />
+          <img style={{width: "100%"}} src="https://picsum.photos/640/360" alt="" />
         </div>
         <div className="col-8">
           <p>
