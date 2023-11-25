@@ -1,16 +1,16 @@
-import { useState } from 'react'
-import Nav from './components/Nav'
-import './App.css'
+import { Outlet } from 'react-router-dom';
+import Nav from './components/NavTabs';
 
 function App() {
-
   return (
     <>
       <Nav />
-      <main ClassName="mx-3">
+      <main className="mx-3">
         <Outlet />
       </main>
-    </>  
+      <Footer />
+      
+    </>
   );
 }
 

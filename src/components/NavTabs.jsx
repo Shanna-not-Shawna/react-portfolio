@@ -2,7 +2,7 @@ import { Link, useLocation } from 'react-router-dom';
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
-function NavBar() {
+function NavTabs() {
   const currentPage = useLocation().pathname;
 
   return (
@@ -28,7 +28,7 @@ function NavBar() {
       <li className="nav-item">
         <Link
           to="/Portfolio"
-          className={currentPage === '/Blog' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}
         >
           Portfolio
         </Link>
@@ -36,7 +36,7 @@ function NavBar() {
       <li className="nav-item">
         <Link
           to="/Resume"
-          className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}
         >
           Resume
         </Link>
@@ -53,4 +53,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default NavTabs;
