@@ -1,40 +1,40 @@
 import Content from "../components/Content";
 
 export default function Portfolio() {
-  const items = [
+  const projects = [
       {
           "image_url": "https://picsum.photos/640/360",
-          "title": "GPT-3",
+          "title": "Title of Project 1",
           "repo_link": "https://github.com/openai/gpt-3",
           "deployed_link": "https://beta.openai.com/"
       },
       {
           "image_url": "https://picsum.photos/640/360",
-          "title": "LaMDA",
+          "title": "Title of Project 2",
           "repo_link": "https://ai.googleblog.com/2021/01/lamda-language-model-for-dialogue.html",
           "deployed_link": "https://lamda.ai/"
       },
       {
           "image_url": "https://picsum.photos/640/360",
-          "title": "TensorFlow",
+          "title": "Title of Project 3",
           "repo_link": "https://github.com/tensorflow/tensorflow",
           "deployed_link": "https://www.tensorflow.org/"
       },
       {
           "image_url": "https://picsum.photos/640/360",
-          "title": "PyTorch",
+          "title": "Title of Project 4",
           "repo_link": "https://github.com/pytorch/pytorch",
           "deployed_link": "https://pytorch.org/"
       },
       {
           "image_url": "https://picsum.photos/640/360",
-          "title": "Keras",
+          "title": "Title of Project 5",
           "repo_link": "https://github.com/keras-team/keras",
           "deployed_link": "https://www.keras.io/"
       },
       {
           "image_url": "https://picsum.photos/640/360",
-          "title": "JAX",
+          "title": "Title of Project 6",
           "repo_link": "https://github.com/google/jax",
           "deployed_link": "https://jax.readthedocs.io/en/latest/"
       }
@@ -45,7 +45,7 @@ export default function Portfolio() {
     <Content title="Portfolio Page">
       <div class="row row-cols-2 g-4">
         {
-          items.map((item) => {
+          projects.map((item) => {
             return (
               <div class="col">
                 <div class="card">
