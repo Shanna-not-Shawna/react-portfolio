@@ -2,6 +2,18 @@
   background-clor: darkslategray;
 }
 
+.header {
+  background-image: url(https://picsum.photos/640/360);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-color: darkslategray;
+  height: 10rem;
+  color: white;
+  text-align: center;
+}
+
 .footer {
   background-color: darkslategray;
   border-top: 1px solid #dee2e6;
