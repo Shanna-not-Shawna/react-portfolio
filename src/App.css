@@ -1,21 +1,20 @@
-.nav-link {
-  background-clor: darkslategray;
-}
-
 .header {
-  background-image: url(https://picsum.photos/640/360);
+  background-image: url(./images/jack-t-6P3AZeUEtfU-unsplash.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   background-color: darkslategray;
-  height: 10rem;
+  height: 11rem;
+}
+
+.header h1 {
   color: white;
   text-align: center;
 }
 
 .footer {
-  background-color: darkslategray;
+  background-color: #023B1C;
   border-top: 1px solid #dee2e6;
   padding: 3rem;
 }
@@ -23,3 +22,21 @@
 .pi {
   padding: .5rem;
 }
+
+.contentContainer {
+  background-color: #F3EFE0;
+}
+
+.nav {
+  background-color: #023B1C;
+}
+
+.nav a {
+  color: white;
+}
+
+.nav a:hover {
+  color: gold;
+  border: none;
+}
+

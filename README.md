@@ -24,3 +24,8 @@ Application has a single Project component that’s used multiple times in the P
 Application has a single Footer component that appears on multiple pages.
 
 Application must be deployed to Netlify.
+
+
+hex triangles Photo by <a href="https://unsplash.com/@blankest?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jack T</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-ceiling-with-a-pattern-on-it-6P3AZeUEtfU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+  
