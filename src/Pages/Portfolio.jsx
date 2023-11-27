@@ -3,37 +3,37 @@ import Content from "../components/Content";
 export default function Portfolio() {
   const projects = [
       {
-          "image_url": "https://picsum.photos/640/360",
+          "image_url": "src/images/recipeblog.png",
           "title": "Recipe Blog",
           "repo_link": "https://github.com/Shanna-not-Shawna/cms-blog",
           "deployed_link": "https://safe-beyond-36437-fd4baa9db3a8.herokuapp.com/"
       },
       {
-          "image_url": "https://picsum.photos/640/360",
+          "image_url": "src/images/weatherdash.png",
           "title": "Weather Dashboard",
           "repo_link": "https://github.com/Shanna-not-Shawna/weather-dashboard",
           "deployed_link": "https://shanna-not-shawna.github.io/weather-dashboard/"
       },
       {
-          "image_url": "https://picsum.photos/640/360",
+          "image_url": "src/images/notetaker.png",
           "title": "Note Taker",
           "repo_link": "https://github.com/Shanna-not-Shawna/note-taker",
           "deployed_link": "https://mysterious-island-53745-682eedebbb58.herokuapp.com/"
       },
       {
-          "image_url": "https://picsum.photos/640/360",
+          "image_url": "src/images/workdayscheduler.png",
           "title": "Work Day Scheduler",
           "repo_link": "https://github.com/Shanna-not-Shawna/work-day-scheduler",
           "deployed_link": "https://shanna-not-shawna.github.io/work-day-scheduler/"
       },
       {
-          "image_url": "https://picsum.photos/640/360",
+          "image_url": "src/images/nintendoquiz.png",
           "title": "Nintendo Quiz",
           "repo_link": "https://github.com/Shanna-not-Shawna/nintendo-quiz",
           "deployed_link": "https://shanna-not-shawna.github.io/nintendo-quiz/"
       },
       {
-          "image_url": "https://picsum.photos/640/360",
+          "image_url": "src/images/passwordgen.png",
           "title": "Password Generator",
           "repo_link": "https://github.com/Shanna-not-Shawna/password-generator",
           "deployed_link": "https://shanna-not-shawna.github.io/password-generator/"
