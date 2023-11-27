@@ -4,55 +4,55 @@ export default function Portfolio() {
   const projects = [
       {
           "image_url": "https://picsum.photos/640/360",
-          "title": "Title of Project 1",
-          "repo_link": "https://github.com/openai/gpt-3",
-          "deployed_link": "https://beta.openai.com/"
+          "title": "Recipe Blog",
+          "repo_link": "https://github.com/Shanna-not-Shawna/cms-blog",
+          "deployed_link": "https://safe-beyond-36437-fd4baa9db3a8.herokuapp.com/"
       },
       {
           "image_url": "https://picsum.photos/640/360",
-          "title": "Title of Project 2",
-          "repo_link": "https://ai.googleblog.com/2021/01/lamda-language-model-for-dialogue.html",
-          "deployed_link": "https://lamda.ai/"
+          "title": "Weather Dashboard",
+          "repo_link": "https://github.com/Shanna-not-Shawna/weather-dashboard",
+          "deployed_link": "https://shanna-not-shawna.github.io/weather-dashboard/"
       },
       {
           "image_url": "https://picsum.photos/640/360",
-          "title": "Title of Project 3",
-          "repo_link": "https://github.com/tensorflow/tensorflow",
-          "deployed_link": "https://www.tensorflow.org/"
+          "title": "Note Taker",
+          "repo_link": "https://github.com/Shanna-not-Shawna/note-taker",
+          "deployed_link": "https://mysterious-island-53745-682eedebbb58.herokuapp.com/"
       },
       {
           "image_url": "https://picsum.photos/640/360",
-          "title": "Title of Project 4",
-          "repo_link": "https://github.com/pytorch/pytorch",
-          "deployed_link": "https://pytorch.org/"
+          "title": "Work Day Scheduler",
+          "repo_link": "https://github.com/Shanna-not-Shawna/work-day-scheduler",
+          "deployed_link": "https://shanna-not-shawna.github.io/work-day-scheduler/"
       },
       {
           "image_url": "https://picsum.photos/640/360",
-          "title": "Title of Project 5",
-          "repo_link": "https://github.com/keras-team/keras",
-          "deployed_link": "https://www.keras.io/"
+          "title": "Nintendo Quiz",
+          "repo_link": "https://github.com/Shanna-not-Shawna/nintendo-quiz",
+          "deployed_link": "https://shanna-not-shawna.github.io/nintendo-quiz/"
       },
       {
           "image_url": "https://picsum.photos/640/360",
-          "title": "Title of Project 6",
-          "repo_link": "https://github.com/google/jax",
-          "deployed_link": "https://jax.readthedocs.io/en/latest/"
+          "title": "Password Generator",
+          "repo_link": "https://github.com/Shanna-not-Shawna/password-generator",
+          "deployed_link": "https://shanna-not-shawna.github.io/password-generator/"
       }
   ]
 
 
   return (
     <Content title="Portfolio Page">
-      <div class="row row-cols-2 g-4">
+      <div className="row row-cols-2 g-4">
         {
           projects.map((item) => {
             return (
-              <div class="col">
-                <div class="card">
-                  <img src={item.image_url} class="card-img-top" alt="..." />
-                  <div class="card-body">
-                    <h5 class="card-title">{item.title}</h5>
-                    <p class="card-text">{item.description}</p>
+              <div className="col">
+                <div className="card">
+                  <img src={item.image_url} className="card-img-top" alt="..." />
+                  <div className="card-body">
+                    <h5 className="card-title">{item.title}</h5>
+                    <a href={item.repo_link}><i className="pi pi-github" style={{ fontSize: '1rem', color: 'black' }}></i></a>
                   </div>
                 </div>
               </div>

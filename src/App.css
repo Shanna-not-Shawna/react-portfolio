@@ -40,3 +40,12 @@
   border: none;
 }
 
+.nav-tabs .nav-link.active {
+  background-color: red;
+  color: white;
+}
+
+#submit-button {
+  background-color: #023B1C;
+  border-color: #023B1C;
+}

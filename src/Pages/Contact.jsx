@@ -4,19 +4,19 @@ export default function Contact() {
   return (
     <Content title="Contact Page">
       <form>
-      <div class="mb-3">
-          <label for="formName" class="form-label">Name</label>
-          <input type="" class="form-control" id="formName" required/>
+      <div className="mb-3">
+          <label htmlFor="formName" className="form-label">Name</label>
+          <input type="" className="form-control" id="formName" required/>
         </div>
-        <div class="mb-3">
-          <label for="formEmail" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="formEmail" aria-describedby="emailHelp" />
+        <div className="mb-3">
+          <label htmlFor="formEmail" className="form-label">Email address</label>
+          <input type="email" className="form-control" id="formEmail" aria-describedby="emailHelp" />
         </div>
-        <div class="mb-3">
-          <label for="formMessage" class="form-label">Message</label>
-          <textarea class="form-control" id="formMessage" rows="4" required></textarea>
+        <div className="mb-3">
+          <label htmlFor="formMessage" className="form-label">Message</label>
+          <textarea className="form-control" id="formMessage" rows="4" required></textarea>
           </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" id="submit-button" className="btn btn-primary">Submit</button>
       </form>
     </Content>
   );
