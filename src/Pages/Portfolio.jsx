@@ -7,45 +7,44 @@ export default function Portfolio() {
         "title": "Recipe Blog",
         "repo_link": "https://github.com/Shanna-not-Shawna/cms-blog",
         "deployed_link": "https://safe-beyond-36437-fd4baa9db3a8.herokuapp.com/",
-        "description": "Recipe Blog technologies used"
+        "description": "Node.js, Inquirer, MySQL"
     },
     {
         "image_url": "src/images/noaa-5YryiYcFvtA-unsplash.jpg",
         "title": "Weather Dashboard",
         "repo_link": "https://github.com/Shanna-not-Shawna/weather-dashboard",
         "deployed_link": "https://shanna-not-shawna.github.io/weather-dashboard/",
-        "description": "Weather Dashboard technologies used"
+        "description": "HTML, CSS, Open Weather API"
     },
     {
         "image_url": "src/images/mike-tinnion-3ym6i13Y9LU-unsplash.jpg",
         "title": "Note Taker",
         "repo_link": "https://github.com/Shanna-not-Shawna/note-taker",
         "deployed_link": "https://mysterious-island-53745-682eedebbb58.herokuapp.com/",
-        "description": "Note Taker technologies used"
+        "description": "Express.js"
     },
     {
         "image_url": "src/images/estee-janssens-aQfhbxailCs-unsplash.jpg",
         "title": "Work Day Scheduler",
         "repo_link": "https://github.com/Shanna-not-Shawna/work-day-scheduler",
         "deployed_link": "https://shanna-not-shawna.github.io/work-day-scheduler/",
-        "description": "Work Day Scheduler technologies used"
+        "description": "HTML, CSS, jQuery"
     },
     {
         "image_url": "src/images/ravi-palwe-_JTF0Prc7jc-unsplash.jpg",
         "title": "Nintendo Quiz",
         "repo_link": "https://github.com/Shanna-not-Shawna/nintendo-quiz",
         "deployed_link": "https://shanna-not-shawna.github.io/nintendo-quiz/",
-        "description": "Nintendo Quiz technologies used"
+        "description": "HTML, CSS, JavaScript"
     },
     {
         "image_url": "src/images/towfiqu-barbhuiya-FnA5pAzqhMM-unsplash.jpg",
         "title": "Password Generator",
         "repo_link": "https://github.com/Shanna-not-Shawna/password-generator",
         "deployed_link": "https://shanna-not-shawna.github.io/password-generator/",
-        "description": "Password Generator technologies used"
+        "description": "JavaScript"
     }
 ]
-
 
   return (
     <Content title="Portfolio">

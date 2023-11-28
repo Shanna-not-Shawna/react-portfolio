@@ -6,11 +6,18 @@
   position: relative;
   background-color: darkslategray;
   height: 11rem;
+  display: grid;
+  align-items: center;
 }
 
 .header h1 {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  );
   color: white;
   text-align: center;
+  text-shadow: 0 2px 0 black;
 }
 
 .footer {
@@ -51,17 +58,12 @@
   border: none;
 }
 
-.nav-link {
-}
-
 .nav-link.active {
   background-color: #F3EFE0;
   border-width: 0;
   color: #023B1C;
 }
 
-/* .nav-link.active:hover  {
-  background-color: #F3EFE0;
-  border-width: 0;
-  color: #023B1C;
-} */
+.proficiencies {
+  padding-left: 4rem;
+}
