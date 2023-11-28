@@ -1,3 +1,5 @@
+import resume from "../images/Resume.pdf";
+
 export default function Resume() {
   return (
     <div className="proficiencies">
@@ -16,7 +18,7 @@ export default function Resume() {
         <li>React</li>
         <li>MERN Stack</li>
       </ul>
-       My resume can be downloaded here<a href="src/images/Resume.pdf"><i className="pi pi-download" style={{ fontSize: '1.5rem', color: 'black' }}></i></a> 
+       My resume can be downloaded here<a href={resume}><i className="pi pi-download" style={{ fontSize: '1.5rem', color: 'black' }}></i></a> 
       
     </div>
   );
