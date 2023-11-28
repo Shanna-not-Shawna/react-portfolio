@@ -17,6 +17,7 @@
   background-color: #023B1C;
   border-top: 1px solid #dee2e6;
   padding: 3rem;
+  text-align: center;
 }
 
 .pi {
@@ -25,6 +26,15 @@
 
 .contentContainer {
   background-color: #F3EFE0;
+}
+
+#submit-button {
+  background-color: #023B1C;
+  border-color: #023B1C;
+}
+
+.card img{
+  max-height: 250px;
 }
 
 .nav {
@@ -40,12 +50,17 @@
   border: none;
 }
 
-.nav-tabs .nav-link.active {
-  background-color: red;
-  color: white;
+.nav-link {
 }
 
-#submit-button {
-  background-color: #023B1C;
-  border-color: #023B1C;
+.nav-link.active {
+  background-color: #F3EFE0;
+  border-width: 0;
+  color: #023B1C;
 }
+
+/* .nav-link.active:hover  {
+  background-color: #F3EFE0;
+  border-width: 0;
+  color: #023B1C;
+} */
