@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Header />
-      <Nav />
+      {/* <Nav /> */}
       <main className="contentContainer">
         <Outlet />
       </main>
