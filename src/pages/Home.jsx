@@ -1,11 +1,12 @@
 import Content from "../components/Content";
+import profilePic from "../images/profilepic.jpg"
 
 export default function Home() {
   return (
     <Content title="About Me">
       <div className="row align-items-center">
         <div className="col-4">
-          <img style={{width: "100%"}} src="src\images\profilepic.jpg" alt="Shanna Brooks" />
+          <img style={{width: "100%"}} src={profilePic} alt="Shanna Brooks" />
         </div>
         <div className="col-8">
           <h2>About Me</h2>
