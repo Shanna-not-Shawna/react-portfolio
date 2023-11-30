@@ -5,6 +5,7 @@ import notebook from "../images/notebook.jpg";
 import calendar from "../images/calendar.jpg";
 import nintendo from "../images/nintendo.jpg";
 import lock from "../images/lock.jpg";
+import Project from "../components/Project";
 
 export default function Portfolio() {
   const projects = [
@@ -55,26 +56,10 @@ export default function Portfolio() {
   return (
     <Content title="Portfolio">
       <div className="row row-cols-2 g-4">
-        {
-          projects.map((item) => {
-            return (
-              <div key={item.title} className="col">
-                <div className="card">
-                  <img src={item.image_url} className="card-img-top" alt="..." />
-                  <div className="card-body">
-                    <h5 className="card-title">{item.title}</h5>
-                    <p>{item.description}</p>
-                    <a href={item.repo_link}><i className="pi pi-github" style={{ fontSize: '2rem', color: 'black' }}></i></a>
-                    <a href={item.deployed_link}><i className="pi pi-link" style={{ fontSize: '2rem', color: 'black' }}></i></a>
-                  </div>
-                </div>
-              </div>
-            )
-          })
-        }
-
+        {projects.map((project) => (
+            <Project key={project.title} project={project} />
+        ))}
       </div>
-
     </Content>
   );
 }
